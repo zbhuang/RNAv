@@ -1,0 +1,92 @@
+************************************************************
+* Whole Structure Result                                   *
+*                                                          *
+* Profile file : train_000.txt                             *
+* Profile length : 119                                     *
+*                                                          *
+* Filter type : HMM                                        *
+* Filter info : positions from 0      to 118               *
+*                                                          *
+* Genome file : test_000.fasta                             *
+* Number of sequences : 1                                  *
+* Total length of sequences : 2074                         *
+*                                                          *
+* Search parameters setting:                               *
+* Pseudocount = 0.001                                      *
+* Num of stem candidates = 10                              *
+* Score threshold for hits = 0                             *
+* Num of nt overlap between stems = 0                      *
+* Candidate representatives only = Yes                     *
+* Shortest candidate representatives = Yes                 *
+* IShiftNumMergeCand = No                                  *
+* Nts allowed in null loops = 3                            *
+* Pcoeff = 2                                               *
+* Search with jump = Yes                                   *
+* Search step size = 1                                     *
+* Search reversed complement sequence = Yes                *
+* Max num of empty stem = 5                                *
+************************************************************
+
+Whole structure search hit 1
+----------------------------
+000
+Plus search result
+Hit Positions: 1000-1072
+HIT Alignment score = 68.2662
+Num of empty stem   = 0
+
+Folded structure
+
+         1 DDDDDDD..AAAA.........aaaa.BBBBB.......bbbbb.....CCCCC...... 61
+         1 1111111..1111.........1111.11111.......11111.....11111...... 61
+      1001 GCCGCCGTAGCTCAGCCCGGGAGAGCGCCCGGCTGAAGACCGGGTTGTCCGGGGTTCAAG 1061
+
+        61 .cccccddddddd 74
+        61 .111111111111 74
+      1061 TCCCCGCGGCGGC 1074
+
+Structure alignment
+
+         1 DDDDDDD..AAAA...--....aaaa.BBBBB.......bbbbb...-.CCCCC...... 61
+         1 1111111..1111.........1111.11111.......11111.....11111...... 61
+      1001 GCCGCCGUAGCUCAGCCCGGGAGAGCGCCCGGCUGAAGACCGGGUUGUCCGGGGUUCAAG 1061
+
+        61 .cccccddddddd 74
+        61 .111111111111 74
+      1061 UCCCCGCGGCGGC 1074
+
+Whole structure search hit 2
+----------------------------
+000
+Minus search result
+Hit Positions: 986-1046
+HIT Alignment score = 24.6886
+Num of empty stem   = 1
+
+Folded structure
+
+         1 ^^^^^^^^AAAA......aaaaBBBBB.......bbbbb.....CCCCC.......cccc 61
+         1 ^^^^^^^^1111......111111111.......11111.....11111.......1111 61
+       987 GAGTTAAAGGGTTATGCCGCCGCGGGGACTTGAACCCCGGACAACCCGGTCTTCAGCCGG 1047
+
+        61 c 62
+        61 1 62
+      1047 G 1048
+
+Structure alignment
+
+         1 ^^^^^^^^AAAA.......aaaaBBBBB.......bbbbb...-.CCCCC.......ccc 61
+         1 ^^^^^^^^1111.......111111111.......11111.....11111.......111 61
+       987 GAGTTAAAGGGUUAUGC-CGCCGCGGGGACUUGAACCCCGGACAACCCGGUCUUCAGCCG 1047
+
+        61 cc 63
+        61 11 63
+      1047 GG 1049
+
+************************************************************
+* Searched done : with RNATOPS V2.0                        *
+* By RNA-Informatics @ UGA                                 *
+* Total no of hits: 2                                      *
+* Total time used 6.38889e-05     hours                    *
+* Time: 19:14:05 EDT 2010-10-31                            *
+************************************************************

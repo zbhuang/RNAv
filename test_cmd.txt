@@ -1,0 +1,1 @@
+./rnav -tf train_000.txt -gf test_000.fasta -hmmfilter -r -th 0 -k 10 -no 0 -ept 5 -sopt 1 -o train_000_result_debug.txt >train_000_result.txt
